@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
+>
+    <default>
+		<df_payment>
+			<paypal>
+				<description>{store.domain} // {customer.name} // {order.id}</description>
+				<requireBillingAddress>1</requireBillingAddress>
+				<payment_action>authorize_capture</payment_action>
+				<title>PayPal</title>
+				<title_backend>PayPal</title_backend>
+			</paypal>
+		</df_payment>
+        <payment>
+            <dfe_paypal>
+				<model>Dfe\Paypal\Method</model>
+            </dfe_paypal>
+        </payment>
+    </default>
+</config>
