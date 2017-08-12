@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/paypal"
-	,"version": "0.0.1"
+	,"version": "0.0.2"
 	,"description": "An alternative PayPal module for Magento 2 you can get fast support and customizations for."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/c/extensions/paypal"
