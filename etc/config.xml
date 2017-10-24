@@ -8,7 +8,6 @@
 			<paypal>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
 				<requireBillingAddress>1</requireBillingAddress>
-				<payment_action>authorize_capture</payment_action>
 				<title>PayPal</title>
 				<title_backend>PayPal</title_backend>
 			</paypal>
